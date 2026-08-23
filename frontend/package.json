@@ -1,0 +1,22 @@
+{
+  "name": "campus-surveillance-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.2",
+    "axios": "^1.13.2",
+    "vite": "^7.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.2",
+    "recharts": "^3.6.0",
+    "lucide-react": "^0.561.0"
+  },
+  "devDependencies": {}
+}
