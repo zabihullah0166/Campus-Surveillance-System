@@ -1,0 +1,14 @@
+# ==========================================
+# GitHub Linguist Language Overrides
+# ==========================================
+
+# Treat frontend directory as vendored code so Python is detected as the primary language on GitHub
+frontend/** linguist-vendored=true
+
+# Mark lockfiles as generated
+*.json linguist-generated=true
+package-lock.json linguist-generated=true
+frontend/package-lock.json linguist-generated=true
+
+# Mark documentation & notes folders
+frontend/trickle/** linguist-documentation=true
